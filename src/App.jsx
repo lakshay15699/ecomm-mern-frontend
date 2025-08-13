@@ -36,7 +36,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="sticky top-0 bg-white shadow p-4 flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
-        <h1 className="text-2xl font-bold">🛍️ ShopEasy</h1>
+        <h1 className="text-2xl font-bold">🛍️ Please Lelo</h1>
         <div className="flex gap-2 flex-wrap">
           <input
             value={search}
