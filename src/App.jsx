@@ -43,7 +43,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="sticky top-0 bg-white shadow p-4 flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
-        <h1 className="text-2xl font-bold">🛍️ ShopEasy</h1>
+        <h1 className="text-2xl font-bold">🛍️ Please Lelo</h1>
         <div className="flex gap-2 flex-wrap">
           <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search products..." className="border rounded px-3 py-2 w-56" />
           <select value={category} onChange={(e) => setCategory(e.target.value)} className="border rounded px-3 py-2">
