@@ -1,12 +1,14 @@
-# Frontend (React + Vite + Tailwind)
+# FinMeta E-Store - Frontend (React + Vite + Tailwind)
 
-## Setup
+## Local Setup
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-> Create a `.env` with `VITE_API_URL` (your backend URL, e.g., `https://your-backend.onrender.com`).
 
-### Tailwind is preconfigured
-- `tailwind.config.js`, `postcss.config.js` and `index.css` are included.
+## Deploy on Vercel
+- Framework: Vite
+- Build: `npm run build`
+- Output: `dist`
+- Env var: `VITE_API_URL` → backend origin (e.g., https://ecomm-mern-backend-y7rn.onrender.com)
